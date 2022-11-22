@@ -3,7 +3,7 @@ import style from './formHeader.module.scss';
 
 type Props = {
   title: string;
-}
+};
 export const FormHeader: React.FC<Props> = ({title}) => {
   return (
     <>
